@@ -15,3 +15,45 @@ html {
     margin-bottom: 2em;
     color: #1d1d1d;
   }
+
+  .navbar {
+    background-color: #1d1d1d;
+    padding: 5px;
+    border-radius:10px; /*makes the edge of the box more round*/
+
+  }
+
+.navbar menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+  .navbar a {  /* the a is used to specify that it is the text*/
+    color:white;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    text-decoration:underline;
+  } /*this creates that line we see when we hover over a hyperlink */
+
+pre {
+  background-color:grey;
+  padding: 16px;
+  border-radius: 10px;
+  overflow-x: auto; /*overflow:auto allows me to have content inside the box while overflow:hidden removes any content that passes the box */
+}
+
+code {
+  color: black;
+  font-family : monospace;
+}
+
+  /*. means we are referring to a class while #means we are referring to id*/

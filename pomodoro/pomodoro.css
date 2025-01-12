@@ -5,55 +5,55 @@
   justify-content: center;
 }
 
-.pomodoro__time {
+.pomodoro_time {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 900;
 }
 
-.pomodoro__buttons {
+.pomodoro_buttons {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   padding: 1rem;
 }
 
-.pomodoro__buttons button {
+.pomodoro_buttons button {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   border: none;
-  cursor: pointer;
+  cursor: pointer; /* it gives you that hand to make you feel like you are pointing at something when you hover over a button*/
   font-family: monospace;
   border-radius: 5px;
 }
 
-.pomodoro__buttons #start {
+.pomodoro_buttons #start {
   background-color: #4caf50;
   color: #ffffff;
 }
 
-.pomodoro__buttons #pause {
+.pomodoro_buttons #pause {
   background-color: #f44336;
   color: #ffffff;
 }
 
-.pomodoro__buttons #reset {
+.pomodoro_buttons #reset {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.pomodoro__settings {
+.pomodoro_settings {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
 }
 
-.pomodoro__settings label {
+.pomodoro_settings label {
   font-size: 1rem;
   margin: 0 0.5rem;
 }
 
-.pomodoro__settings input {
+.pomodoro_settings input {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
@@ -62,14 +62,14 @@
   text-align: center;
 }
 
-.pomodoro__status {
+.pomodoro_status {
   font-size: 1.5rem;
   font-weight: 100;
   margin: 1rem;
   text-transform: uppercase;
 }
 
-.pomodoro__progress {
+.pomodoro_progress {
   width: 300px;
   height: 1rem;
   background-color: #bcbcbc;
